@@ -5,14 +5,14 @@ import './App.css'
 import { ImageProfile } from './components/ImageProfile'
 import { Title } from './components/Title'
 import moment from 'moment'
-
+import profile from './assets/react.svg'
 function App() {
   const [hide, setHide] = useState(false)
 
   return (
     <main id="main">
       <div className="leftPort">
-        <ImageProfile image="/src/assets/react.svg"/>
+        <ImageProfile image={profile}/>
 
         <Title title="Warat Ratsaminopsawet (Toey)">
           <h3>Frontend</h3>
